@@ -1,0 +1,149 @@
+2023.09.30 01:19:04 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations' for client Visual Studio Code 1.82.2.
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.metals\metals (H2 2.1)
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.032s)
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 30, 2023 1:19:04 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 30, 2023 1:19:05 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.036s)
+2023.09.30 01:19:05 INFO  time: initialize in 1.06s
+2023.09.30 01:19:11 INFO  Running List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations)
+2023.09.30 01:19:11 INFO  Attempting to connect to the build server...
+2023.09.30 01:19:11 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations)
+2023.09.30 01:19:12 WARN  No build session currently active to reload.
+2023.09.30 01:19:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 01:19:17 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\functions.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.30 01:19:19 INFO  BSP server: Starting compilation server
+2023.09.30 01:19:22 INFO  time: code lens generation in 14s
+2023.09.30 01:19:32 ERROR Timeout waiting for 'build/initialize' response
+2023.09.30 01:19:32 WARN  Retrying connection to the build server scala-cli
+2023.09.30 01:19:32 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations)
+2023.09.30 01:19:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 01:19:32 INFO  BSP server: Starting compilation server
+2023.09.30 01:19:41 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.30 01:19:41 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.30 01:19:41 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.30 01:19:41 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.30 01:19:41 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.30 01:19:41 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.30 01:19:41 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.30 01:19:41 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.30 01:19:41 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.30 01:19:41 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.30 01:19:41 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.30 01:19:41 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.30 01:19:42 INFO  time: Connected to build server in 31s
+2023.09.30 01:19:42 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.30 01:19:42 INFO  time: Imported build in 0.49s
+2023.09.30 01:19:44 INFO  compiling scala_funcations_bd2c96d2de (1 scala source)
+2023.09.30 01:19:49 INFO  time: indexed workspace in 5.89s
+2023.09.30 01:19:53 INFO  time: compiled scala_funcations_bd2c96d2de in 9.31s
+2023.09.30 01:26:06 INFO  compiling scala_funcations_bd2c96d2de (1 scala source)
+2023.09.30 01:26:10 INFO  time: compiled scala_funcations_bd2c96d2de in 3.94s
+2023.09.30 01:26:22 INFO  Shutting down server
+2023.09.30 01:26:22 INFO  shutting down Metals
+2023.09.30 01:26:22 INFO  Shut down connection with build server.
+2023.09.30 01:26:22 INFO  Exiting server
+2023.09.30 18:09:26 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions' for client Visual Studio Code 1.82.2.
+Sep 30, 2023 6:09:26 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 30, 2023 6:09:26 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 30, 2023 6:09:26 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 30, 2023 6:09:27 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\.metals\metals (H2 2.1)
+Sep 30, 2023 6:09:27 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.089s)
+Sep 30, 2023 6:09:27 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 30, 2023 6:09:27 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.30 18:09:28 INFO  time: initialize in 1.84s
+2023.09.30 18:09:33 INFO  Attempting to connect to the build server...
+2023.09.30 18:09:33 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations)
+2023.09.30 18:09:34 WARN  No build session currently active to reload.
+2023.09.30 18:09:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:09:35 INFO  BSP server: [error]  C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations: input file not found
+2023.09.30 18:09:35 INFO  BSP server: Try viewing the relevant help to see the list of available sub-commands and options.
+2023.09.30 18:09:35 INFO  BSP server:   C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --help
+2023.09.30 18:09:42 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\functions.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.30 18:09:48 INFO  time: code lens generation in 14s
+2023.09.30 18:09:54 ERROR Timeout waiting for 'build/initialize' response
+2023.09.30 18:09:54 WARN  Retrying connection to the build server scala-cli
+2023.09.30 18:09:54 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations)
+2023.09.30 18:09:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:09:54 INFO  BSP server: [error]  C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations: input file not found
+2023.09.30 18:09:54 INFO  BSP server: Try viewing the relevant help to see the list of available sub-commands and options.
+2023.09.30 18:09:54 INFO  BSP server:   C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --help
+2023.09.30 18:10:14 ERROR Timeout waiting for 'build/initialize' response
+2023.09.30 18:10:14 WARN  Retrying connection to the build server scala-cli
+2023.09.30 18:10:14 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations)
+2023.09.30 18:10:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:10:14 INFO  BSP server: [error]  C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations: input file not found
+2023.09.30 18:10:14 INFO  BSP server: Try viewing the relevant help to see the list of available sub-commands and options.
+2023.09.30 18:10:14 INFO  BSP server:   C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --help
+2023.09.30 18:10:34 ERROR Timeout waiting for 'build/initialize' response
+2023.09.30 18:10:34 WARN  Retrying connection to the build server scala-cli
+2023.09.30 18:10:34 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations)
+2023.09.30 18:10:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:10:34 INFO  BSP server: [error]  C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations: input file not found
+2023.09.30 18:10:34 INFO  BSP server: Try viewing the relevant help to see the list of available sub-commands and options.
+2023.09.30 18:10:34 INFO  BSP server:   C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --help
+2023.09.30 18:10:54 ERROR Timeout waiting for 'build/initialize' response
+2023.09.30 18:10:54 WARN  Retrying connection to the build server scala-cli
+2023.09.30 18:10:54 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations)
+2023.09.30 18:10:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:10:54 INFO  BSP server: [error]  C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations: input file not found
+2023.09.30 18:10:54 INFO  BSP server: Try viewing the relevant help to see the list of available sub-commands and options.
+2023.09.30 18:10:54 INFO  BSP server:   C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --help
+2023.09.30 18:11:14 ERROR Timeout waiting for 'build/initialize' response
+2023.09.30 18:11:14 WARN  Retrying connection to the build server scala-cli
+2023.09.30 18:11:14 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations)
+2023.09.30 18:11:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:11:14 INFO  BSP server: [error]  C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_funcations: input file not found
+2023.09.30 18:11:14 INFO  BSP server: Try viewing the relevant help to see the list of available sub-commands and options.
+2023.09.30 18:11:14 INFO  BSP server:   C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --help
+2023.09.30 18:11:34 ERROR Timeout waiting for 'build/initialize' response
+2023.09.30 18:11:34 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:546)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:447)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.30 18:11:34 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\functions.scala
+Sep 30, 2023 6:17:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+Sep 30, 2023 6:17:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\.metals\.reports\metals-full\2023-09-30\r_compiler-error_18-17-14-162
+Sep 30, 2023 6:17:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 118
+2023.09.30 18:49:52 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\functions.scala
+2023.09.30 18:49:52 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_functions\functions.scala
+2023.09.30 18:49:53 INFO  Shutting down server
+2023.09.30 18:49:53 INFO  shutting down Metals
+2023.09.30 18:49:53 INFO  Exiting server

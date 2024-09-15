@@ -1,0 +1,69 @@
+2023.09.25 21:03:13 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala' for client Visual Studio Code 1.82.2.
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala\.metals\metals (H2 2.1)
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.032s)
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 25, 2023 9:03:14 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.056s)
+2023.09.25 21:03:15 INFO  time: initialize in 1.21s
+2023.09.25 21:03:24 INFO  Running List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala)
+2023.09.25 21:03:25 INFO  Attempting to connect to the build server...
+2023.09.25 21:03:25 WARN  No build session currently active to reload.
+2023.09.25 21:03:25 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala)
+2023.09.25 21:03:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 21:03:26 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala\scala_recap.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Sep 25, 2023 9:03:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.09.25 21:03:34 INFO  time: code lens generation in 5.64s
+2023.09.25 21:03:34 INFO  time: code lens generation in 3.04s
+2023.09.25 21:03:34 INFO  time: code lens generation in 1.24s
+2023.09.25 21:03:34 INFO  time: code lens generation in 4.38s
+2023.09.25 21:03:34 INFO  time: code lens generation in 6.33s
+2023.09.25 21:03:34 INFO  time: code lens generation in 7.28s
+2023.09.25 21:03:34 INFO  time: code lens generation in 6.61s
+2023.09.25 21:03:34 INFO  time: code lens generation in 7s
+2023.09.25 21:03:34 INFO  time: code lens generation in 3.48s
+2023.09.25 21:03:34 INFO  time: code lens generation in 7.02s
+2023.09.25 21:03:34 INFO  time: code lens generation in 7.3s
+2023.09.25 21:03:44 INFO  time: Connected to build server in 19s
+2023.09.25 21:03:44 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.25 21:03:45 INFO  time: Imported build in 0.14s
+2023.09.25 21:03:45 INFO  compiling scala_bd2c96d2de (1 scala source)
+2023.09.25 21:03:49 INFO  time: compiled scala_bd2c96d2de in 3.85s
+2023.09.25 21:03:54 INFO  time: indexed workspace in 9.55s
+Sep 25, 2023 9:03:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 137
+Sep 25, 2023 9:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 139
+Sep 25, 2023 9:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 147
+Sep 25, 2023 9:04:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 150
+Sep 25, 2023 9:05:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 259
+2023.09.28 19:21:28 INFO  time: code lens generation in 1.75s
+2023.09.28 20:00:27 INFO  Shutting down server
+2023.09.28 20:00:27 INFO  shutting down Metals
+2023.09.28 20:00:27 INFO  Shut down connection with build server.
+2023.09.28 20:00:27 INFO  Cancelling compilation on scala-cli server
+2023.09.28 20:00:28 INFO  Exiting server

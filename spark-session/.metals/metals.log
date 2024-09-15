@@ -1,0 +1,96 @@
+2023.09.28 20:02:11 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session' for client Visual Studio Code 1.82.2.
+Sep 28, 2023 8:02:11 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 28, 2023 8:02:11 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 28, 2023 8:02:11 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 28, 2023 8:02:12 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session\.metals\metals (H2 2.1)
+Sep 28, 2023 8:02:12 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 28, 2023 8:02:12 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.076s)
+Sep 28, 2023 8:02:12 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 28, 2023 8:02:13 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 28, 2023 8:02:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 28, 2023 8:02:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 28, 2023 8:02:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 28, 2023 8:02:13 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 28, 2023 8:02:13 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.048s)
+2023.09.28 20:02:13 INFO  time: initialize in 2.38s
+2023.09.28 20:02:28 INFO  Running List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session)
+2023.09.28 20:02:29 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session\program.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.28 20:02:29 INFO  Attempting to connect to the build server...
+2023.09.28 20:02:29 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session)
+2023.09.28 20:02:30 WARN  No build session currently active to reload.
+2023.09.28 20:02:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Sep 28, 2023 8:02:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Sep 28, 2023 8:02:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2023.09.28 20:02:36 INFO  time: code lens generation in 17s
+2023.09.28 20:02:36 INFO  time: code lens generation in 3.75s
+2023.09.28 20:02:36 INFO  time: code lens generation in 5.37s
+2023.09.28 20:02:36 INFO  time: code lens generation in 4.58s
+2023.09.28 20:02:36 INFO  time: code lens generation in 4.12s
+2023.09.28 20:02:36 INFO  time: code lens generation in 4.35s
+2023.09.28 20:02:36 INFO  time: code lens generation in 2.55s
+2023.09.28 20:02:36 INFO  time: code lens generation in 4.09s
+2023.09.28 20:02:36 INFO  time: code lens generation in 4.62s
+2023.09.28 20:02:36 INFO  time: code lens generation in 4.18s
+Sep 28, 2023 8:02:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+2023.09.28 20:02:41 WARN  Could not find semantic tokens for: file:///C:/Users/ZAIN%20UL%20ABDIN/Documents/scala_learnings/spark-session/program.scala
+2023.09.28 20:02:50 ERROR Timeout waiting for 'build/initialize' response
+2023.09.28 20:02:50 WARN  Retrying connection to the build server scala-cli
+2023.09.28 20:02:50 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session)
+2023.09.28 20:02:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.28 20:03:10 ERROR Timeout waiting for 'build/initialize' response
+2023.09.28 20:03:10 WARN  Retrying connection to the build server scala-cli
+2023.09.28 20:03:10 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session)
+2023.09.28 20:03:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\spark-session\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.28 20:03:21 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.28 20:03:21 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.28 20:03:21 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.28 20:03:21 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.28 20:03:21 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.28 20:03:21 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.28 20:03:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.28 20:03:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.28 20:03:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.28 20:03:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.28 20:03:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.28 20:03:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.28 20:03:25 INFO  time: Connected to build server in 56s
+2023.09.28 20:03:25 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.28 20:03:26 INFO  time: Imported build in 0.51s
+2023.09.28 20:03:26 INFO  compiling spark-session_bd2c96d2de (1 scala source)
+2023.09.28 20:03:26 INFO  time: compiled spark-session_bd2c96d2de in 0.75s
+2023.09.28 20:03:32 INFO  time: indexed workspace in 6.24s
+2023.09.28 20:03:32 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala\scala_recap.scala
+2023.09.28 20:03:38 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala\scala_recap.scala
+2023.09.28 20:03:38 INFO  time: code lens generation in 5.7s
+2023.09.28 20:06:38 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project\import org.apache.spark.scala
+2023.09.28 20:26:28 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\SimpleApp.scala
+Sep 28, 2023 8:26:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+2023.09.28 20:28:45 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\SimpleApp.scala
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.09.28 20:36:32 INFO  Shutting down server
+2023.09.28 20:36:32 INFO  shutting down Metals
+2023.09.28 20:36:33 INFO  Shut down connection with build server.
+2023.09.28 20:36:33 INFO  Exiting server

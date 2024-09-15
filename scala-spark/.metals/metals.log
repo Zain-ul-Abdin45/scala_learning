@@ -1,0 +1,323 @@
+2023.09.25 01:13:49 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark' for client Visual Studio Code 1.82.1.
+Sep 25, 2023 1:13:49 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 25, 2023 1:13:49 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 25, 2023 1:13:49 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\metals (H2 2.1)
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.032s)
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 25, 2023 1:13:50 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.056s)
+2023.09.25 01:13:50 INFO  time: initialize in 1.34s
+2023.09.25 01:13:58 INFO  Running List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 01:13:59 INFO  Attempting to connect to the build server...
+2023.09.25 01:13:59 INFO  Attempting to connect to the build server...
+2023.09.25 01:13:59 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 01:13:59 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 01:13:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 01:14:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 01:14:02 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\scala-spark_DF.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.25 01:14:08 INFO  time: code lens generation in 12s
+2023.09.25 01:14:08 INFO  time: code lens generation in 4.22s
+2023.09.25 01:14:08 INFO  time: code lens generation in 4.22s
+2023.09.25 01:14:08 INFO  time: code lens generation in 4.22s
+2023.09.25 01:14:09 INFO  BSP server: Starting compilation server
+2023.09.25 01:14:09 INFO  BSP server: Starting compilation server
+2023.09.25 01:14:20 ERROR Timeout waiting for 'build/initialize' response
+2023.09.25 01:14:20 WARN  Retrying connection to the build server scala-cli
+2023.09.25 01:14:20 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 01:14:20 ERROR Timeout waiting for 'build/initialize' response
+2023.09.25 01:14:20 WARN  Retrying connection to the build server scala-cli
+2023.09.25 01:14:20 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 01:14:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 01:14:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 01:14:20 INFO  BSP server: Starting compilation server
+2023.09.25 01:14:21 INFO  BSP server: Starting compilation server
+2023.09.25 01:14:22 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\scala-spark_DF.scala
+2023.09.25 01:14:22 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\scala-spark_DF.scala
+2023.09.25 01:14:40 ERROR Timeout waiting for 'build/initialize' response
+2023.09.25 01:14:40 WARN  Retrying connection to the build server scala-cli
+2023.09.25 01:14:40 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 01:14:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 01:14:40 ERROR Timeout waiting for 'build/initialize' response
+2023.09.25 01:14:40 WARN  Retrying connection to the build server scala-cli
+2023.09.25 01:14:40 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 01:14:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 01:14:56 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.25 01:14:56 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.25 01:14:56 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.25 01:14:56 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.25 01:14:56 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.25 01:14:56 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.25 01:14:56 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.25 01:14:56 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.25 01:14:56 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.25 01:14:56 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.25 01:14:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.25 01:14:56 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.25 01:14:56 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.25 01:14:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.25 01:14:56 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.25 01:14:56 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.25 01:14:56 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.25 01:14:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.25 01:14:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.25 01:14:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.25 01:14:57 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.25 01:14:57 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.25 01:14:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.25 01:14:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.25 01:14:59 INFO  time: Connected to build server in 59s
+2023.09.25 01:14:59 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.25 01:14:59 INFO  time: Connected to build server in 59s
+2023.09.25 01:14:59 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.25 01:14:59 INFO  time: Imported build in 0.95s
+2023.09.25 01:15:00 INFO  time: Imported build in 0.83s
+2023.09.25 01:15:02 INFO  Deduplicating compilation of scala-spark_bd2c96d2de from bsp client 'scala-cli 1.0.4' (since 7.414s)
+2023.09.25 01:15:03 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:15:02 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:15:06 INFO  time: indexed workspace in 6.36s
+2023.09.25 01:15:08 INFO  time: indexed workspace in 8.06s
+2023.09.25 01:15:15 INFO  time: compiled scala-spark_bd2c96d2de in 11s
+2023.09.25 01:15:16 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:15:16 INFO  Deduplicating compilation of scala-spark_bd2c96d2de from bsp client 'scala-cli 1.0.4' (since 21.712s)
+2023.09.25 01:15:16 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:15:21 INFO  time: compiled scala-spark_bd2c96d2de in 4.04s
+2023.09.25 01:15:22 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:15:24 INFO  time: compiled scala-spark_bd2c96d2de in 2.2s
+2023.09.25 01:15:27 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:15:29 INFO  time: compiled scala-spark_bd2c96d2de in 2.19s
+2023.09.25 01:15:29 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:15:30 INFO  time: compiled scala-spark_bd2c96d2de in 1.17s
+2023.09.25 01:17:05 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\app.scala
+2023.09.25 01:17:06 INFO  Disconnecting from scala-cli session...
+2023.09.25 01:17:06 INFO  Shut down connection with build server.
+2023.09.25 01:17:06 INFO  Attempting to connect to the build server...
+2023.09.25 01:17:06 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 01:17:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 01:17:06 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:17:06 INFO  Deduplicating compilation of scala-spark_bd2c96d2de from bsp client 'scala-cli 1.0.4' (since 2m 11.482s)
+2023.09.25 01:17:06 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:17:09 INFO  time: compiled scala-spark_bd2c96d2de in 3.05s
+2023.09.25 01:17:09 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:17:11 INFO  time: compiled scala-spark_bd2c96d2de in 1.59s
+2023.09.25 01:17:18 INFO  time: Connected to build server in 12s
+2023.09.25 01:17:18 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.25 01:17:19 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:17:19 INFO  time: compiled scala-spark_bd2c96d2de in 0.86s
+2023.09.25 01:17:20 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:17:20 INFO  time: compiled scala-spark_bd2c96d2de in 0.96s
+2023.09.25 01:17:22 INFO  time: indexed workspace in 3.55s
+2023.09.25 01:17:23 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 01:17:27 INFO  time: compiled scala-spark_bd2c96d2de in 4.21s
+2023.09.25 01:17:27 INFO  Refreshed build after change
+Sep 25, 2023 1:23:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 214
+2023.09.25 20:33:28 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:33:31 INFO  time: compiled scala-spark_bd2c96d2de in 2.86s
+2023.09.25 20:34:37 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:34:39 INFO  time: compiled scala-spark_bd2c96d2de in 1.3s
+2023.09.25 20:34:39 INFO  Shutting down server
+2023.09.25 20:34:39 INFO  shutting down Metals
+2023.09.25 20:34:39 INFO  Shut down connection with build server.
+2023.09.25 20:34:39 INFO  Exiting server
+2023.09.25 20:34:40 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 20:35:45 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark' for client Visual Studio Code 1.82.2.
+Sep 25, 2023 8:35:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 25, 2023 8:35:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 25, 2023 8:35:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 25, 2023 8:35:47 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\metals (H2 2.1)
+Sep 25, 2023 8:35:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.065s)
+Sep 25, 2023 8:35:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 25, 2023 8:35:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.25 20:35:47 INFO  time: initialize in 1.65s
+2023.09.25 20:36:02 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\app.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.25 20:36:03 INFO  Attempting to connect to the build server...
+2023.09.25 20:36:03 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 20:36:04 WARN  No build session currently active to reload.
+2023.09.25 20:36:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 20:36:13 INFO  time: code lens generation in 9.08s
+2023.09.25 20:36:13 INFO  time: code lens generation in 9.16s
+2023.09.25 20:36:21 INFO  time: Connected to build server in 17s
+2023.09.25 20:36:21 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.25 20:36:21 INFO  time: Imported build in 0.12s
+2023.09.25 20:36:21 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:36:23 INFO  time: compiled scala-spark_bd2c96d2de in 1.6s
+2023.09.25 20:36:23 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:36:25 INFO  time: compiled scala-spark_bd2c96d2de in 1.66s
+2023.09.25 20:36:26 INFO  time: indexed workspace in 5.47s
+2023.09.25 20:36:27 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:36:31 INFO  time: compiled scala-spark_bd2c96d2de in 3.63s
+2023.09.25 20:36:34 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:36:35 INFO  time: compiled scala-spark_bd2c96d2de in 1.22s
+2023.09.25 20:41:38 INFO  Shutting down server
+2023.09.25 20:41:38 INFO  shutting down Metals
+2023.09.25 20:41:38 INFO  Shut down connection with build server.
+2023.09.25 20:41:38 INFO  Exiting server
+2023.09.25 20:44:18 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark' for client Visual Studio Code 1.82.2.
+Sep 25, 2023 8:44:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 25, 2023 8:44:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 25, 2023 8:44:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 25, 2023 8:44:19 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\metals (H2 2.1)
+Sep 25, 2023 8:44:19 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.074s)
+Sep 25, 2023 8:44:19 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 25, 2023 8:44:19 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.25 20:44:20 INFO  time: initialize in 2.04s
+2023.09.25 20:44:26 INFO  Attempting to connect to the build server...
+2023.09.25 20:44:26 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 20:44:26 WARN  No build session currently active to reload.
+2023.09.25 20:44:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 20:45:11 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark' for client Visual Studio Code 1.82.2.
+Sep 25, 2023 8:45:11 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 25, 2023 8:45:11 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 25, 2023 8:45:11 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 25, 2023 8:45:16 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\metals (H2 2.1)
+Sep 25, 2023 8:45:16 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.064s)
+Sep 25, 2023 8:45:16 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 25, 2023 8:45:16 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.25 20:45:16 INFO  time: initialize in 5.25s
+2023.09.25 20:45:21 INFO  Attempting to connect to the build server...
+2023.09.25 20:45:21 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.25 20:45:21 WARN  No build session currently active to reload.
+2023.09.25 20:45:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.25 20:45:29 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\app.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.25 20:45:34 INFO  time: code lens generation in 13s
+2023.09.25 20:45:40 INFO  time: Connected to build server in 18s
+2023.09.25 20:45:40 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.25 20:45:40 INFO  time: Imported build in 0.12s
+2023.09.25 20:45:42 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:45:45 INFO  time: compiled scala-spark_bd2c96d2de in 3.29s
+2023.09.25 20:45:45 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:45:47 INFO  time: indexed workspace in 7.08s
+2023.09.25 20:45:53 INFO  time: compiled scala-spark_bd2c96d2de in 7.45s
+2023.09.25 20:45:53 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:45:53 INFO  time: compiled scala-spark_bd2c96d2de in 0.1s
+2023.09.25 20:45:57 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:45:59 INFO  time: compiled scala-spark_bd2c96d2de in 1.69s
+2023.09.25 20:52:46 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.25 20:52:47 INFO  time: compiled scala-spark_bd2c96d2de in 1.19s
+2023.09.25 21:01:09 INFO  Shutting down server
+2023.09.25 21:01:09 INFO  shutting down Metals
+2023.09.25 21:01:09 INFO  Shut down connection with build server.
+2023.09.25 21:01:09 INFO  Exiting server
+2023.09.26 22:47:53 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark' for client Visual Studio Code 1.82.2.
+Sep 26, 2023 10:47:53 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 26, 2023 10:47:53 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 26, 2023 10:47:53 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 26, 2023 10:47:54 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\metals (H2 2.1)
+Sep 26, 2023 10:47:54 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.075s)
+Sep 26, 2023 10:47:54 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 26, 2023 10:47:54 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.26 22:47:54 INFO  time: initialize in 1.78s
+2023.09.26 22:48:01 INFO  Attempting to connect to the build server...
+2023.09.26 22:48:01 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.26 22:48:01 WARN  No build session currently active to reload.
+2023.09.26 22:48:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.26 22:48:14 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\app.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.26 22:48:21 ERROR Timeout waiting for 'build/initialize' response
+2023.09.26 22:48:21 WARN  Retrying connection to the build server scala-cli
+2023.09.26 22:48:21 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.26 22:48:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.26 22:48:22 INFO  time: code lens generation in 21s
+2023.09.26 22:48:32 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.26 22:48:32 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.26 22:48:32 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.26 22:48:32 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.26 22:48:32 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.26 22:48:32 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.26 22:48:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.26 22:48:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.26 22:48:34 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.26 22:48:34 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.26 22:48:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.26 22:48:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.26 22:48:36 INFO  time: Connected to build server in 35s
+2023.09.26 22:48:36 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.26 22:48:36 INFO  time: Imported build in 0.12s
+2023.09.26 22:48:36 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.26 22:48:38 INFO  time: compiled scala-spark_bd2c96d2de in 1.38s
+2023.09.26 22:48:38 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.26 22:48:39 INFO  time: compiled scala-spark_bd2c96d2de in 0.84s
+2023.09.26 22:48:40 INFO  time: indexed workspace in 4.48s
+2023.09.26 22:53:25 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+Sep 26, 2023 10:53:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2023.09.26 22:53:27 INFO  time: compiled scala-spark_bd2c96d2de in 1.79s
+2023.09.26 22:53:29 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.26 22:53:30 INFO  time: compiled scala-spark_bd2c96d2de in 1.41s
+Sep 26, 2023 11:50:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Sep 26, 2023 11:50:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58
+Sep 26, 2023 11:50:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59
+2023.09.26 23:51:02 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\SimpleApp.scala
+2023.09.26 23:51:03 INFO  Disconnecting from scala-cli session...
+2023.09.26 23:51:03 INFO  Shut down connection with build server.
+2023.09.26 23:51:03 INFO  Attempting to connect to the build server...
+2023.09.26 23:51:03 INFO  Cancelling compilation on scala-cli server
+2023.09.26 23:51:03 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark)
+2023.09.26 23:51:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.26 23:51:14 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala-spark\SimpleApp.scala
+2023.09.26 23:51:14 INFO  time: Connected to build server in 10s
+2023.09.26 23:51:14 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.26 23:51:14 INFO  time: Imported build in 0.21s
+2023.09.26 23:51:15 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.26 23:51:18 INFO  time: compiled scala-spark_bd2c96d2de in 2.44s
+2023.09.26 23:51:18 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.26 23:51:20 INFO  time: compiled scala-spark_bd2c96d2de in 1.45s
+2023.09.26 23:51:20 INFO  time: indexed workspace in 6.01s
+2023.09.26 23:51:21 INFO  compiling scala-spark_bd2c96d2de (1 scala source)
+2023.09.26 23:51:27 INFO  time: compiled scala-spark_bd2c96d2de in 5.31s
+2023.09.26 23:51:27 INFO  Refreshed build after change
+Sep 28, 2023 7:56:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 152
+2023.09.28 20:00:37 INFO  Shutting down server
+2023.09.28 20:00:37 INFO  shutting down Metals
+2023.09.28 20:00:38 INFO  Shut down connection with build server.
+2023.09.28 20:00:39 INFO  Exiting server

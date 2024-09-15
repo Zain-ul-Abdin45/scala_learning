@@ -1,0 +1,84 @@
+2023.08.20 09:49:39 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project' for client Visual Studio Code 1.81.1.
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project\.metals\metals (H2 2.1)
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.032s)
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 20, 2023 9:49:40 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.045s)
+2023.08.20 09:49:40 INFO  time: initialize in 1.05s
+2023.08.20 09:49:44 WARN  Build server is not auto-connectable.
+2023.08.20 09:49:44 WARN  no build tool detected in workspace 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.20 09:52:38 INFO  
+2023.08.20 09:52:38 INFO  Template applied in C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\.\hello-world.sbt
+2023.08.20 09:52:38 INFO  
+2023.08.20 09:52:38 INFO  time: ran 'giter8.Giter8' in 17s
+2023.08.24 10:34:46 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project' for client Visual Studio Code 1.81.1.
+Aug 24, 2023 10:34:46 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 24, 2023 10:34:46 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 24, 2023 10:34:46 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 24, 2023 10:34:50 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project\.metals\metals (H2 2.1)
+Aug 24, 2023 10:34:51 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.065s)
+Aug 24, 2023 10:34:51 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 24, 2023 10:34:51 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.24 10:34:51 INFO  time: initialize in 4.6s
+2023.08.24 10:34:56 WARN  Build server is not auto-connectable.
+2023.08.24 10:34:56 WARN  no build tool detected in workspace 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.31 13:50:10 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project' for client Visual Studio Code 1.81.1.
+Aug 31, 2023 1:50:10 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 31, 2023 1:50:10 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 31, 2023 1:50:10 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 31, 2023 1:50:14 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project\.metals\metals (H2 2.1)
+Aug 31, 2023 1:50:14 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+Aug 31, 2023 1:50:14 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 31, 2023 1:50:14 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.31 13:50:14 INFO  time: initialize in 4.67s
+2023.08.31 13:50:19 WARN  Build server is not auto-connectable.
+2023.08.31 13:50:19 WARN  no build tool detected in workspace 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.31 13:50:29 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project\import org.apache.spark.scala
+2023.08.31 13:50:30 WARN  no build target for: C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project\import org.apache.spark.scala
+2023.08.31 13:51:09 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\first_project\import org.apache.spark.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Aug 31, 2023 1:52:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 31, 2023 1:54:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 31, 2023 1:54:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 31, 2023 1:54:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.09.01 00:49:34 INFO  Shutting down server
+2023.09.01 00:49:34 INFO  shutting down Metals
+2023.09.01 00:49:34 INFO  Exiting server

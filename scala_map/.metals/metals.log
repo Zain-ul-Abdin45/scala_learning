@@ -1,0 +1,124 @@
+2023.09.30 18:50:35 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map' for client Visual Studio Code 1.82.2.
+Sep 30, 2023 6:50:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 30, 2023 6:50:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 30, 2023 6:50:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 30, 2023 6:50:36 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.metals\metals (H2 2.1)
+Sep 30, 2023 6:50:36 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 30, 2023 6:50:36 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.047s)
+Sep 30, 2023 6:50:36 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 30, 2023 6:50:37 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 30, 2023 6:50:37 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 30, 2023 6:50:37 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 30, 2023 6:50:37 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 30, 2023 6:50:37 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 30, 2023 6:50:37 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.104s)
+2023.09.30 18:50:37 INFO  time: initialize in 1.89s
+2023.09.30 18:50:50 INFO  no build target found for C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\map.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Sep 30, 2023 6:50:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.09.30 18:50:51 INFO  Running List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map)
+2023.09.30 18:50:52 INFO  Attempting to connect to the build server...
+2023.09.30 18:50:52 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map)
+2023.09.30 18:50:51 WARN  No build session currently active to reload.
+2023.09.30 18:50:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:50:56 INFO  time: code lens generation in 12s
+2023.09.30 18:51:03 INFO  time: Connected to build server in 10s
+2023.09.30 18:51:03 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.30 18:51:03 INFO  time: Imported build in 0.17s
+2023.09.30 18:51:03 INFO  compiling scala_map_bd2c96d2de (1 scala source)
+2023.09.30 18:51:04 INFO  time: compiled scala_map_bd2c96d2de in 1.14s
+2023.09.30 18:51:04 INFO  compiling scala_map_bd2c96d2de (1 scala source)
+2023.09.30 18:51:04 INFO  time: compiled scala_map_bd2c96d2de in 0.61s
+2023.09.30 18:51:09 INFO  time: indexed workspace in 5.83s
+2023.09.30 18:51:09 INFO  compiling scala_map_bd2c96d2de (1 scala source)
+2023.09.30 18:51:12 INFO  time: compiled scala_map_bd2c96d2de in 2.94s
+2023.09.30 18:51:17 INFO  compiling scala_map_bd2c96d2de (1 scala source)
+2023.09.30 18:51:17 INFO  time: compiled scala_map_bd2c96d2de in 0.6s
+2023.09.30 18:51:44 INFO  Disconnecting from scala-cli session...
+2023.09.30 18:51:44 INFO  Shut down connection with build server.
+2023.09.30 18:51:44 INFO  Cancelling compilation on scala-cli server
+2023.09.30 18:51:44 INFO  Attempting to connect to the build server...
+2023.09.30 18:51:44 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map)
+2023.09.30 18:51:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:51:53 INFO  time: Connected to build server in 8.72s
+2023.09.30 18:51:53 INFO  Connected to Build server: scala-cli v1.0.4
+2023.09.30 18:51:54 INFO  compiling scala_map_bd2c96d2de (1 scala source)
+2023.09.30 18:51:54 INFO  time: compiled scala_map_bd2c96d2de in 0.3s
+2023.09.30 18:51:55 INFO  compiling scala_map_bd2c96d2de (1 scala source)
+2023.09.30 18:51:55 INFO  time: compiled scala_map_bd2c96d2de in 0.56s
+2023.09.30 18:52:00 INFO  time: indexed workspace in 7.14s
+2023.09.30 19:25:46 INFO  compiling scala_map_bd2c96d2de (1 scala source)
+2023.09.30 19:25:46 INFO  time: compiled scala_map_bd2c96d2de in 0.46s
+2023.09.30 19:25:46 INFO  Refreshed build after change
+2023.09.30 19:31:15 INFO  file:///C:/Users/ZAIN%20UL%20ABDIN/Documents/scala_learnings/scala_map/functions.scala:6:22: stale bloop error: Not found: map
+    val doubleList = map(list, x => x * 2)
+                     ^^^
+2023.09.30 19:31:15 WARN  Could not find semantic tokens for: file:///C:/Users/ZAIN%20UL%20ABDIN/Documents/scala_learnings/scala_map/functions.scala
+Sep 30, 2023 7:32:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.09.30 19:39:42 INFO  Shutting down server
+2023.09.30 19:39:42 INFO  shutting down Metals
+2023.09.30 19:39:42 INFO  Shut down connection with build server.
+2023.09.30 19:39:42 INFO  Exiting server
+2023.10.01 20:07:27 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map' for client Visual Studio Code 1.82.2.
+Oct 01, 2023 8:07:27 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 01, 2023 8:07:27 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 01, 2023 8:07:27 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 01, 2023 8:07:28 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.metals\metals (H2 2.1)
+Oct 01, 2023 8:07:28 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.072s)
+Oct 01, 2023 8:07:28 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 01, 2023 8:07:29 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.01 20:07:29 INFO  time: initialize in 2.13s
+2023.10.01 20:07:34 INFO  Attempting to connect to the build server...
+2023.10.01 20:07:34 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map)
+2023.10.01 20:07:34 WARN  No build session currently active to reload.
+2023.10.01 20:07:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.01 20:07:37 INFO  BSP server: Starting compilation server
+2023.10.01 20:07:54 ERROR Timeout waiting for 'build/initialize' response
+2023.10.01 20:07:54 WARN  Retrying connection to the build server scala-cli
+2023.10.01 20:07:54 INFO  Running BSP server List(C:\Users\ZAIN UL ABDIN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.scala-build\ide-options-v2.json, C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map)
+2023.10.01 20:07:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ZAIN UL ABDIN\Documents\scala_learnings\scala_map\.metals\bsp.trace.json or C:\Users\ZAIN UL ABDIN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.01 20:08:01 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.01 20:08:01 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.10.01 20:08:01 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.01 20:08:01 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.10.01 20:08:01 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.01 20:08:01 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.01 20:08:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.01 20:08:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.10.01 20:08:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.01 20:08:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.01 20:08:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.01 20:08:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.10.01 20:08:04 INFO  time: Connected to build server in 30s
+2023.10.01 20:08:04 INFO  Connected to Build server: scala-cli v1.0.4
+2023.10.01 20:08:04 INFO  time: Imported build in 0.25s
+2023.10.01 20:08:06 INFO  compiling scala_map_bd2c96d2de (1 scala source)
+2023.10.01 20:08:13 INFO  time: compiled scala_map_bd2c96d2de in 7.02s
+2023.10.01 20:08:13 INFO  compiling scala_map_bd2c96d2de (1 scala source)
+2023.10.01 20:08:13 INFO  time: compiled scala_map_bd2c96d2de in 0.87s
+2023.10.01 20:08:16 INFO  time: indexed workspace in 11s
+2023.10.01 20:11:49 INFO  Shutting down server
+2023.10.01 20:11:49 INFO  shutting down Metals
+2023.10.01 20:11:49 INFO  Shut down connection with build server.
+2023.10.01 20:11:49 INFO  Exiting server
